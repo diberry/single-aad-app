@@ -48,7 +48,7 @@ app.set('trust proxy', 1) // trust first proxy i.e. App Service
 const appSettings = {
     appCredentials: {
         clientId: process.env.WEBSITE_AUTH_CLIENT_ID, // Enter the client Id here,
-        tenantId: "common", // Enter the tenant info here,
+        tenantId: process.env.WEBSITE_AUTH_TENANT_ID, //"common", // Enter the tenant info here,
         clientSecret: process.env.MICROSOFT_PROVIDER_AUTHENTICATION_SECRET // Enter the client secret here,
     },
     authRoutes: {
