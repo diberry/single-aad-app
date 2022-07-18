@@ -12,7 +12,7 @@ const MsIdExpress = require('microsoft-identity-express');
 const mainRouter = require('./routes/mainRoutes');
 
 // App constants
-const SERVER_PORT = process.env.PORT || 3000;
+const SERVER_PORT = process.env.PORT || 8080;
 
 // initialize express
 const app = express(); 
