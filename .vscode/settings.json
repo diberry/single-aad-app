@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/bb881e62-cf77-4d5d-89fb-29d71e930b66/resourceGroups/diberry-app-to-app/subscriptions/bb881e62-cf77-4d5d-89fb-29d71e930b66/resourceGroups/diberry-app-to-app/providers/Microsoft.Web/sites/app-only",
+    "appService.deploySubpath": "."
+}
